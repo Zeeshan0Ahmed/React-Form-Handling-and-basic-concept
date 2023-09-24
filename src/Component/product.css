@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px;
+    flex-direction: column;
+   border-radius: 6px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.firstContainer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.secondContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.insideSecondContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+img{
+   width: 90px;
+   height: 90px; 
+}
+.available{
+    background-color: green;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+.notavailable{
+    background-color: red;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
